@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: species.json
-  label: Species
-  match: "**/*"
 - type: directory
   path: projects
   label: Projects
@@ -15,6 +11,9 @@ sections:
   match: "**/*.md"
   templates:
   - project
+- type: document
+  path: species.json
+  label: Species
 - type: directory
   path: journal
   label: Journal
