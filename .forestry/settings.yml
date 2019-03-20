@@ -7,11 +7,9 @@ sections:
 - type: document
   path: data/galleries.json
   label: Galleries
-  match: "**/*"
 - type: document
   path: data/photos.json
   label: Photos
-  match: "**/*"
 - type: document
   path: data/subgalleries.json
   label: Subgalleries
