@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "names": [
+      "Skippers",
+      "Spread-wing Skippers"
+    ],
+    "createdAt": "2019-03-07T00:43:12.969Z",
+    "updatedAt": "2019-03-07T00:50:26.122Z",
+    "featuredPhoto": null,
+    "galleries": ["butterflies"]
+  },
+  {
+    "id": 2,
+    "names": [
+      "Woodpeckers"
+    ],
+    "featuredPhoto": 6,
+    "galleries": ["birds"]
+  }
+]
