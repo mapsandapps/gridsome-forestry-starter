@@ -12,11 +12,16 @@ fields:
     type: text
     hidden: false
     default: ''
+    config:
+      required: true
   - name: names
     label: Names
     type: list
     hidden: false
     default: ''
+    config:
+      min: '1'
+    description: List of names that will be shown in breadcrumbs for this subgallery
   - name: createdAt
     label: Createdat
     type: datetime
@@ -27,15 +32,13 @@ fields:
     type: datetime
     hidden: false
     default: ''
-  - name: featuredPhoto
-    label: Featuredphoto
-    type: text
-    hidden: false
-    default: ''
   - name: galleries
     label: Galleries
     type: list
     hidden: false
     default: ''
+  - type: field_group
+    name: featuredPhoto
+    label: Featured Photo
   hidden: false
   default: ''
