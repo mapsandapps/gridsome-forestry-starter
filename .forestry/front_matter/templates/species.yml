@@ -1,6 +1,7 @@
 ---
 label: Species
 hide_body: true
+display_field: Species
 fields:
 - name: Species
   label: Species
@@ -11,6 +12,8 @@ fields:
     type: text
     hidden: false
     default: ''
+    config:
+      required: true
   - name: commonName
     label: Commonname
     type: text
@@ -36,5 +39,7 @@ fields:
     type: list
     hidden: false
     default: ''
+  - type: text
+  - type: field_group
   hidden: false
   default: ''
