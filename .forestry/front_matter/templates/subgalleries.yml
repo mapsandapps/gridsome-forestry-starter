@@ -1,0 +1,40 @@
+---
+label: Subgalleries
+hide_body: true
+fields:
+- name: Subgalleries
+  label: Subgalleries
+  type: field_group_list
+  fields:
+  - name: id
+    label: Id
+    type: text
+    hidden: false
+    default: ''
+  - name: names
+    label: Names
+    type: list
+    hidden: false
+    default: ''
+  - name: createdAt
+    label: Createdat
+    type: datetime
+    hidden: false
+    default: ''
+  - name: updatedAt
+    label: Updatedat
+    type: datetime
+    hidden: false
+    default: ''
+  - name: featuredPhoto
+    label: Featuredphoto
+    type: text
+    hidden: false
+    default: ''
+  - name: galleries
+    label: Galleries
+    type: list
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
