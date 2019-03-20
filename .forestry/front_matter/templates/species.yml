@@ -1,0 +1,40 @@
+---
+label: Species
+hide_body: true
+fields:
+- name: Species
+  label: Species
+  type: field_group_list
+  fields:
+  - name: id
+    label: Id
+    type: text
+    hidden: false
+    default: ''
+  - name: commonName
+    label: Commonname
+    type: text
+    hidden: false
+    default: ''
+  - name: scientificName
+    label: Scientificname
+    type: text
+    hidden: false
+    default: ''
+  - name: subgallery
+    label: Subgallery
+    type: text
+    hidden: false
+    default: ''
+  - name: featuredPhoto
+    label: Featuredphoto
+    type: text
+    hidden: false
+    default: ''
+  - name: photos
+    label: Photos
+    type: list
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
