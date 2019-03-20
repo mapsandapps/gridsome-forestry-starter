@@ -12,7 +12,7 @@ sections:
   templates:
   - project
 - type: document
-  path: species.json
+  path: data/species.json
   label: Species
 - type: directory
   path: journal
