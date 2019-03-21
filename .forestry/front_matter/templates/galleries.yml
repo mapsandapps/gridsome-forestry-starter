@@ -44,3 +44,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+  config:
+    labelField: name
