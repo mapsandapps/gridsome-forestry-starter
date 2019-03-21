@@ -40,5 +40,6 @@ fields:
   - type: field_group
     name: featuredPhoto
     label: Featured Photo
+  - type: datetime
   hidden: false
   default: ''
