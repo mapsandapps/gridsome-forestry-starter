@@ -1,17 +1,18 @@
 ---
 label: Photos
 hide_body: true
+display_field: Photos
 fields:
 - type: field_group_list
   name: Photos
   label: Photos
   fields:
-  - type: number
-    name: id
-    label: id
   - type: file
     name: url
     label: url
+  - type: number
+    name: id
+    label: id
   - type: text
     name: species
     label: species
