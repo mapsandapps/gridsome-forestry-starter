@@ -46,3 +46,5 @@ fields:
   default: ''
   config:
     labelField: name
+pages:
+- data/galleries.json
