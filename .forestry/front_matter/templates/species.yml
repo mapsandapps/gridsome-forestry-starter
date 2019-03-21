@@ -47,6 +47,14 @@ fields:
         file: 
     label: Featured Photo
     name: featured
+  - type: select
+    config:
+      source:
+        type: documents
+        section: galleries
+        file: data/galleries.json
+    label: test
+    name: test
   hidden: false
   default: ''
   config:
