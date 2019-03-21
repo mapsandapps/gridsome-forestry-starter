@@ -37,7 +37,7 @@ fields:
     label: Photos
     type: list
     hidden: false
-    default: ''
+    default: []
   - type: text
   hidden: false
   default: ''
