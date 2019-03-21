@@ -1,0 +1,58 @@
+---
+label: Photos
+hide_body: true
+fields:
+- type: field_group_list
+  name: Photos
+  label: Photos
+  fields:
+  - type: number
+    name: id
+    label: id
+  - type: file
+    name: url
+    label: url
+  - type: text
+    name: species
+    label: species
+  - type: datetime
+    name: createdAt
+    label: createdAt
+  - type: datetime
+    name: updatedAt
+    label: updatedAt
+  - type: field_group
+    name: annotations
+    label: annotations
+    fields:
+    - type: text
+      name: stage
+      label: stage
+    - type: text
+      name: plumage
+      label: plumage
+    - type: text
+      name: sex
+      label: sex
+  - type: field_group
+    name: captureInfo
+    label: captureInfo
+    fields:
+    - type: text
+      name: photographer
+      label: photographer
+    - type: text
+      name: copyright
+      label: copyright
+    - type: text
+      name: location
+      label: location
+    - type: text
+      name: city
+      label: city
+    - type: text
+      name: county
+      label: county
+    - type: datetime
+      name: date
+      label: date
