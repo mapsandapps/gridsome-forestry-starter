@@ -4,12 +4,26 @@
     "name": "Butterflies",
     "subgalleries": [
       {
+        "id": "",
+        "names": "",
+        "featuredPhoto": "",
+        "galleries": ""
+      },
+      {
+        "id": "",
+        "names": "",
+        "featuredPhoto": "",
+        "galleries": ""
+      },
+      {
         "id": 3,
         "names": [
           "Swallowtails"
         ],
         "featuredPhoto": 16,
-        "galleries": ["butterflies"]
+        "galleries": [
+          "butterflies"
+        ]
       },
       {
         "id": 4,
@@ -18,7 +32,9 @@
           "Whites"
         ],
         "featuredPhoto": 17,
-        "galleries": ["butterflies"]
+        "galleries": [
+          "butterflies"
+        ]
       },
       {
         "id": 1,
@@ -27,7 +43,9 @@
           "Spread-wing Skippers"
         ],
         "featuredPhoto": null,
-        "galleries": ["butterflies"]
+        "galleries": [
+          "butterflies"
+        ]
       }
     ]
   },
@@ -45,7 +63,9 @@
           "Woodpeckers"
         ],
         "featuredPhoto": 6,
-        "galleries": ["birds"]
+        "galleries": [
+          "birds"
+        ]
       }
     ]
   }
