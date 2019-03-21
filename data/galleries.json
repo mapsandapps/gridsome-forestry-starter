@@ -1,5 +1,10 @@
 [
   {
+    "id": "mammals",
+    "name": "Mammals",
+    "subgalleries": ""
+  },
+  {
     "id": "butterflies",
     "name": "Butterflies",
     "subgalleries": [
