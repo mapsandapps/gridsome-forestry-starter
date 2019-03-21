@@ -39,14 +39,5 @@ fields:
     hidden: false
     default: ''
   - type: text
-  - type: field_group
-  - type: select
-    config:
-      source:
-        type: documents
-        section: photos
-        file: data/photos.json
-    label: temp
-    name: temp
   hidden: false
   default: ''
