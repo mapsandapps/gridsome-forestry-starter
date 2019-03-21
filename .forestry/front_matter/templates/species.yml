@@ -39,6 +39,14 @@ fields:
     hidden: false
     default: []
   - type: text
+  - type: select
+    config:
+      source:
+        type: documents
+        section: photos
+        file: data/photos.json
+    label: Featured Photo
+    name: featured
   hidden: false
   default: ''
   config:
