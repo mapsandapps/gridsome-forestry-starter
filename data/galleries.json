@@ -2,7 +2,9 @@
   {
     "id": "mammals",
     "name": "Mammals",
-    "subgalleries": ""
+    "subgalleries": [
+
+    ]
   },
   {
     "id": "butterflies",
