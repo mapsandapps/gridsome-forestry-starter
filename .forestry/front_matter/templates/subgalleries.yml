@@ -1,7 +1,6 @@
 ---
 label: Subgalleries
 hide_body: true
-display_field: Subgalleries
 fields:
 - name: Subgalleries
   label: Subgalleries
@@ -41,5 +40,10 @@ fields:
     name: featuredPhoto
     label: Featured Photo
   - type: datetime
+  - type: field_group
+  - type: include
+    template: galleries
+    label: temp
+    name: temp
   hidden: false
   default: ''
