@@ -44,7 +44,7 @@ fields:
       source:
         type: documents
         section: photos
-        file: 
+        file: data/photos.json
     label: Featured Photo
     name: featured
   - type: select
